@@ -1,6 +1,8 @@
 package com.ulaiber.ubossmerchant.activity;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -8,12 +10,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.GridView;
+import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 
 import com.ulaiber.ubossmerchant.R;
+import com.ulaiber.ubossmerchant.util.PublicWay;
+import com.ulaiber.ubossmerchant.util.Res;
 
 public class MainActivity extends AppCompatActivity {
 
     FloatingActionButton btn_addgoosd;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
